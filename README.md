@@ -17,7 +17,7 @@ Fault Diagnosis Method
                    "outer_18",
                    "outer_36",
                    "outer_54")
-   * For the different methods, we constructed two datasets: data1(ML) and data2(ML)
+   * For the different methods, we constructed two datasets: data1(ML) and data2(DL)
     
 ## Method:
   We used two approaches for fault diagnosis: 
