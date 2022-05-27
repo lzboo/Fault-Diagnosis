@@ -4,9 +4,21 @@ Fault Diagnosis Method
 ## Dataset:
   We used the bearing dataset provided by CWRU and selected some of the data for our experiments.
   * Data source：[CWRU](https://engineering.case.edu/bearingdatacenter/home)
-  * data_1:Ten csv files (normal + 9 types of faults), each file contains the data obtained from different positions of the motor (BA/DE/FE) sampled at 12kHZ frequency
-  * data_2:10 type of faults (normal + 9 types of faults)
-
+  * Data: The CWRU dataset is rich, providing sampling data at different motor speeds (4) and at different test positions (3).Fault Diagnosis can be divided into different classification problems:
+    * 2 classes = ("normal", "fault")
+    * 4 classes = ("normal", "ball", "inner", "outer")
+    * 10 classes = ("normal",
+                   "ball_18",
+                   "ball_36",
+                   "ball_54",
+                   "inner_18",
+                   "inner_36",
+                   "inner_54",
+                   "outer_18",
+                   "outer_36",
+                   "outer_54")
+   * For the different methods, we constructed two datasets: data1(ML) and data2(ML)
+    
 ## Method:
   We used two approaches for fault diagnosis: 
   1. **Traditional machine learning approach**：
