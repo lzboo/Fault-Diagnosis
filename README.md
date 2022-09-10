@@ -28,5 +28,5 @@ Fault Diagnosis Method
      * Sampling Timing Data Reconstruction(Two ways):
        1) Converting signals to 2-D images [Paper](https://ieeexplore.ieee.org/abstract/document/8114247)
        2) Wavelet transform of time-series data to generate spectrograms（To be completed）
-     * Model:CNN
+     * Model: `CNN`
 
