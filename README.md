@@ -23,7 +23,7 @@ Fault Diagnosis Method
   We used two approaches for fault diagnosis: 
   1. **Traditional machine learning approach**：
      * Feature Extract: Construct **4 frequency domain features** + **8 time domain features**
-     * Model:KNN / SVM / XGBoost
+     * Model:`KNN / SVM / XGBoost`
   2. **Data-driven deep learning approach**：
      * Sampling Timing Data Reconstruction(Two ways):
        1) Converting signals to 2-D images [Paper](https://ieeexplore.ieee.org/abstract/document/8114247)
